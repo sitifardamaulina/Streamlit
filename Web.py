@@ -108,7 +108,7 @@ if optm == 'Latih_model' :
     
     #Load data nya
     df_m = df.drop(columns=['lokasi' , 'Unnamed: 0.1' , 'Unnamed: 0'], axis=-1)       
-    st.header('perviwe Ini adalah Data Yang di pakai')
+    st.header('preview Ini adalah Data Yang di pakai')
     st.table(df_m.head())
     
     # normalisasi Data dan rubah Label
@@ -187,7 +187,7 @@ if optm == 'Prediksi' :
     #Load data nya
     df_m = df.drop(columns=['lokasi' , 'Unnamed: 0.1' , 'Unnamed: 0'], axis=-1)  
     st.write(len(df_m))     
-    st.header('perviwe Ini adalah Data Yang di pakai')
+    st.header('preview Ini adalah Data Yang di pakai')
     st.table(df_m.head())
 
     st.header('Cek Apakah Kamu Kekurangan / Kelebihan Gizi')
