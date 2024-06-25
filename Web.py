@@ -207,7 +207,7 @@ if optm == 'Klasifikasi' :
     plt.show()
 
 if optm == 'Visualisasi':
-    st.header('Visualisasi Data Alamat vs nutrition_label')
+    st.header('Visualisasi Data Alamat dan nutrition_label')
 
     # Count occurrences of nutrition_label per Alamat
     count_df = df.groupby(['Alamat', 'nutrition_label']).size().reset_index(name='count')
